@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Bukura Educational Complex CBO.
+        </title>
+        <link rel="stylesheet" href="Home.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+        <script>
+          function displayGreeting() {
+            var currentTime = new Date();
+            var currentHour = currentTime.getHours();
+            var greeting;
+      
+            if (currentHour < 12) {
+              greeting = 'Good Morning!';
+            } else if (currentHour < 18) {
+              greeting = 'Good Afternoon!';
+            } else {
+              greeting = 'Good Evening!';
+            }
+      
+            document.getElementById('greeting').innerHTML = greeting;
+          }
+        </script>
+        
+        <script src="https://kit.fontawesome.com/2f66de554a.js"></script>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<style>
+    #back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #FDC93B;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+    }
+  </style>
+
+    </head>
+    <body onload="displayGreeting()">
+        <nav>
+            <a href="index.html"><img src="logo-main-mobile.png" alt="logo"></a>
+            <h1 class="on1">Bukura Educational Complex CBO</h1>
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="About.html">Mission</a></li>
+                                <li><a href="About.html">Vision</a></li>
+                                <li><a href="About.html">Motto</a></li>
+                            </ul>                 
+                        </div> 
+                    </li>
+                    <li><a href="#">Quick Links</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="agriculture.html">Agriculture</a></li>
+                                <li><a href="factory.html">Cooperative</a></li>
+                                <li><a href="downloads.html">Downloads</a></li>
+                                <li><a href="institution.html">School</a></li>
+                            </ul>                 
+                        </div> 
+                    </li>
+                    <li><a href="Contacts.html">Contact</a></li>
+                    
+                </ul>
+                <i id="menu-drop" class="fa-solid fa-bars-staggered fa-lg"></i>
+
+            </div>
+        </nav>
+        <div class="clear"></div>
+
+        <section id="home">
+          <h2>Bukura Educational Complex CBO</h2><br>
+                <!-- Place the following code where you want the Twitter feed to appear -->
+<a class="twitter-timeline" data-width="400" data-height="600" 
+href="https://twitter.com/home">Tweets</a> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      </section>
+      <section class="Instit-descrip1">
+        <div class="descrip">
+          <h1 id="greeting"></h1><br>
+          <h3>Welcome to Bukura Educational Complex CBO!</h3><br>
+          <p>Bukura Educational Complex CBO is a transformative organization dedicated to empowering individuals and fostering community development. We offer a diverse range of services and programs that address various aspects of livelihoods and well-being. Through initiatives such as education, dairy farming, poultry farming, and cooperative services, we equip individuals with the skills, knowledge, and resources needed to create sustainable livelihoods and uplift the community. The organization's commitment to sustainable practices, community engagement, and capacity-building makes it a catalyst for positive change and a driving force in the transformation of individuals in the community.
+          </p>
+          <button><a href="About.html">VIEW MORE</a></button>
+        </div>
+        <div class="descrip-image">
+          <br><br><br><img src="Homepic.jpeg" alt="Brian">
+        </div>
+      </section> 
+
+        <section class="home-slidingimg">
+          <h3>Pictorials</h3>
+          <div class="slidingimg">
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="cover1.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="Training.jpg" alt="milk"></div>
+      <div class="swiper-slide"><img src="educ.jpg" alt="Chicks"></div>
+      <div class="swiper-slide"><img src="cover.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="cop3.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="Drier.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="parentspic.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="mach2.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="peeledpot.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="meeting.jpg" alt="Eggs"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+</div>
+        </section>
+
+        <section id="features">
+            <h1>Services</h1>
+            <p>We provide the following services to the Community:</p>
+            <div class="fea-base">
+                <div class="school">
+                    <i class="fa-solid fa-user-graduate fa-beat"></i>
+                    <h3>Education</h3>
+                    <p>By leveraging innovative teaching methodologies and advanced technologies, we ensure that learners can unlock their full potential and gain the knowledge necessary to succeed in their chosen endeavors.</p><br>
+                    <a href="institution.html">Learn More >></a>
+                    <p><br></p>
+                </div>
+                <div class="milk">
+                  <i class="fa-solid fa-glass-water fa-beat" style="color: #282460;"></i>
+                    <h3>Diary</h3>
+                    <p>With a commitment to  economic empowerment, we empower farmers to contribute to their local economy and meet the growing demand for high-quality dairy products in the community</p><br>
+                    <a href="agriculture.html">Learn More >></a><br>
+                </div>
+                <div class="hen">
+                    <i class="fa-solid fa-egg fa-beat"></i>
+                    <h3>Poultry</h3>
+                    <p>We empower aspiring poultry farmers through comprehensive support, practical training, and valuable resources to establish and manage their own poultry operations to foster economic growth.</p><br>
+                    <a href="agriculture.html">Learn More >></a>
+                </div>
+                <div class="agrics">
+                    <i class="fa-solid fa-industry fa-beat"></i>
+                    <h3>Cooperative</h3>
+                    <p>The cooperative serves as a catalyst for community development, and providing opportunities for income generation by creating a supportive and empowering environment.</p><br>
+                    <br><a href="factory.html">Learn More >></a>
+                </div>
+            </div>
+        </section> 
+        <section id="Products">
+            <h1>Products</h1>
+            <p>Our Organization produces the following products:</p>
+            <div class="Product-box">
+                <div class="dairy">
+                    <img src="Milk.jpg" alt="milk">
+                    <div class="details">
+                        <h6>Milk</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="dairy">
+                    <img src="broilersI.jpeg" alt="milk">
+                    <div class="details">
+                        <h6>Poultry</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="dairy">
+                    <img src="Potatoes.jpg" alt="milk">
+                    <div class="details">
+                        <h6>Sweet Potatoes</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="dairy">
+                    <img src="groundnuts.jpg" alt="milk">
+                    <div class="details">
+                        <h6>Groundnuts</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="dairy">
+                    <img src="Peanut.jpg" alt="milk">
+                    <div class="details">
+                        <h6>Peanut</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+                <div class="dairy">
+                    <img src="Yoghurt.jpg" alt="milk">
+                    <div class="details">
+                        <h6>Sour Milk</h6>
+                    </div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                    </div>
+                </div>
+            </div>   
+        </section> 
+
+        <footer>
+          <div class="fot">
+            <div class="footer-col"> 
+             <h3>BUKURA CBO</h3>
+             <address>
+               <li>P.O BOX 58-50105,</li>
+               <li>Bukura,</li>
+               <li>Kenya</li>
+               <li><a href="mailto:bukuracbo@gmail.com">bukuracbo@gmail.com</a></li>
+             </address> 
+            </div> 
+           <div class="footer-col">
+             <h3>Quick Links</h3>
+             <li><a href="agriculture.html">Agriculture</a></li>
+             <li><a href="factory.html">Cooperative</a></li>
+             <li><a href="institution.html">School</a></li>
+             <li><a href="downloads.html">Downloads</a></li>
+           </div>
+           <div class="footer-col">
+             <h3>Contact Us</h3>
+             <li>+254722331098</li>
+             <li>+254712519209</li>
+             <li><a href="mailto:bukuracomplex@gmail.com">bukuracomplex@gmail.com</a></li>
+            </div>
+           <div class="footer-col">
+             <h3>Feedback</h3>
+             <p>In order to improve our services, kindly give us your Feedback;</p>
+
+             <div class="subscribe">
+              <input type="text" id="message" placeholder="Enter text">
+              <a id="sendBtn" class="yellow">Send Email</a>
+           </div>
+            </div>
+        </div> 
+            <hr style="height: 2px; color: #7b838a;background-color: #7b838a">
+           <div class="copyright">
+            <p>&copy;2023 BUKURA CBO | All rights reserved | Infinity Dreams Softwares </p>
+            <div class="pro-links">
+                <a href="https://www.facebook.com/bukuracbo" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/bukura-educational-complex-cbo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+           </div>
+        </footer>
+        <script>
+           $('#menu-drop').click(function(){
+            $('nav .navigation ul').addClass('active')
+          });
+          $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+          });
+        </script>
+        <script>
+          const sendBtn = document.getElementById('sendBtn');
+          const messageInput = document.getElementById('message');
+      
+          sendBtn.addEventListener('click', () => {
+            const message = messageInput.value;
+            if (message !== '') {
+              const emailLink = `mailto:bukuracbo@gmail.com?body=${encodeURIComponent(message)}`;
+              window.location.href = emailLink;
+            }
+          });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+        </script>
+        <div id="back-to-top">&#8593;</div>
+        <script>
+            window.addEventListener('scroll', function() {
+              var backToTopButton = document.getElementById('back-to-top');
+              if (window.pageYOffset > 100) {
+                backToTopButton.style.display = 'block';
+              } else {
+                backToTopButton.style.display = 'none';
+              }
+            });
+        
+            document.getElementById('back-to-top').addEventListener('click', function() {
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+              });
+            });
+          </script>
+    </body>
+</html>

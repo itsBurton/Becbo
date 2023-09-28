@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Bukura Educational Complex CBO.
+    </title>
+    <link rel="stylesheet" href="Home.css">
+
+    <script src="https://kit.fontawesome.com/2f66de554a.js"></script>
+    <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<style>
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #FDC93B;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+</style>
+
+</head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="logo-main-mobile.png" alt="logo"></a>
+            <h1>Bukura Educational Complex CBO</h1>
+            <div class="navigation">
+                <ul>
+                  <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                          <ul>
+                            <li><a href="About.html">Mission</a></li>
+                            <li><a href="About.html">Vision</a></li>
+                            <li><a href="About.html">Motto</a></li>
+                        </ul>                               
+                        </div> 
+                    </li>
+                    <li><a class="active" href="#">Quick Links</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="agriculture.html">Agriculture</a></li>
+                                <li><a href="factory.html">Cooperative</a></li>
+                                <li><a href="downloads.html">Downloads</a></li>
+                                <li><a href="institution.html">School</a></li>
+                            </ul>                 
+                        </div> 
+                    </li>             
+                    <li><a href="Contacts.html">Contact</a></li>
+                </ul>
+                <i id="menu-drop" class="fa-solid fa-bars-staggered fa-lg"></i>
+
+            </div>
+        </nav>
+        <div class="clear">
+            
+        </div>
+
+        <section id="Cop-home">
+            <h2>Cooperative</h2>
+        </section>
+        <section class="Cop-descrip1">
+          <div class="descrip">
+            <h3>Cooperative</h3><br>
+            <p>Our Cooperative brings individuals together to collaborate and achieve shared economic and social objectives. It provides members with collective purchasing power, marketing channels, and opportunities for knowledge-sharing and capacity-building. By pooling resources and skills, members of the Cooperative benefit from reduced costs, increased market access, and improved productivity. The Cooperative fosters a sense of community, empowering members to collectively address challenges, make informed decisions, and contribute to the overall development and prosperity of the community.
+            </p>
+            <button><a href="products.html">VIEW MORE</a></button>
+          </div>
+          <div class="descrip-image">
+            <br><br><img src="cop3.jpg" alt="Brian">
+          </div>
+        </section> 
+        <section class="home-slidingimg">
+          <h3>Pictorials</h3>
+          <div class="slidingimg">
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="BoardCop.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="Training.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="about3.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="farmers.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="displaydryingpot.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="Drier.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="viewpeeledpot.jpg" alt="milk"></div>
+      <div class="swiper-slide"><img src="enjoypot.jpg" alt="Chicks"></div>
+      <div class="swiper-slide"><img src="mach2.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="marketpot.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="educ.jpg" alt="Eggs"></div>
+      <div class="swiper-slide"><img src="potsack.jpg" alt="Eggs"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+</div>
+        </section>
+        <section class="aplication-chance">
+          <h1>Join our Cooperative Today!</h1>
+          <h1 id="counter" style="font-size: 2.5rem; color: #FDC93B; font-family: 'Times New Roman', Times, serif;">0 members</h1>
+
+          <script>
+            // Function to increment the member count and update the display
+            function incrementMemberCount() {
+              var counterElement = document.getElementById('counter');
+              var currentCount = parseInt(counterElement.innerText);
+              
+              // Update the count every 100 milliseconds
+              var interval = setInterval(function() {
+                if (currentCount >= 124) {
+                  clearInterval(interval);
+                  return;
+                }
+                 
+                currentCount++;
+                counterElement.innerText = currentCount + " Members";
+              }, 100);
+            }
+            
+            // Call the incrementMemberCount function
+            incrementMemberCount();
+          </script>
+          <br><a href="mailto:bukuracbo@gmail.com">Join >></a><br><br>
+         </section>
+         <section id="features">
+          <h1>Products</h1>
+          <p>We produce the following products:</p>
+          <div class="fea-base">
+              <div class="school">
+                  <h3>Groundnut Products</h3>
+                  <p>Including groundnuts and peanut butter</p><br>
+                  <a href="products.html">Learn More >></a>
+                  <p><br></p>
+              </div>
+              <div class="milk">
+                  <h3>Diary Products</h3>
+                  <p>Including fresh milk and sour milk</p><br>
+                  <a href="products.html">Learn More >></a><br>
+              </div>
+              <div class="hen">
+                  <h3>Poultry Products</h3>
+                  <p>Including broilers, layers and eggs</p><br>
+                  <a href="products.html">Learn More >></a>
+              </div>
+              <div class="agrics">
+                  <h3>Sweet Potato Products</h3>
+                  <p>Including sweet potatoes and porridge flour</p><br>
+                  <a href="products.html">Learn More >></a>
+              </div>
+          </div>
+      </section> 
+      <section class="Cop-descrip1">
+        <div class="descrip">
+          <h3>Cooperative Board</h3><br>
+          <p>
+            We would like to express our heartfelt appreciation for the active participation and unwavering commitment to our cooperative. It is with great pride that we witness the collective efforts and achievements of our members, which have contributed to the growth and success of our cooperative.
+We firmly believe in the power of cooperation as a driving force for positive change. By working collaboratively, we have enhanced our purchasing power, improved market access, and achieved economies of scale, benefiting each and every member.
+<br>Our cooperative stands as a beacon of unity and support within our community. By promoting a spirit of mutual assistance and shared responsibility, we have fostered a close-knit network of individuals who support one another's aspirations and wellbeing. Together, we have not only enhanced our economic prosperity but also strengthened social cohesion and community development.
+          </p>
+        </div>
+        <div class="descrip-image">
+         <br><br><br><br> <img src="BoardCop.jpg">
+        </div>
+      </section> 
+      <section class="Cop-descrip1">
+        <div class="descrip">
+          <h3>Our Farmers</h3><br>
+          <p>
+            Our farmers are the backbone of our collective success and the driving force behind our agricultural endeavors. Comprised of dedicated and passionate individuals, our farmers possess a deep connection to the land and a genuine commitment to sustainable farming practices. They embrace the value of hard work, resilience, and continuous learning, constantly seeking ways to improve their farming techniques and maximize productivity. They embody the spirit of entrepreneurship, seizing opportunities, and overcoming challenges to create thriving agricultural businesses. Above all, our farmers are the stewards of the land, recognizing the importance of responsible and eco-friendly farming methods that promote soil health, biodiversity, and environmental sustainability. Through their dedication and expertise, the farmers of Bukura CBO contribute not only to their own economic prosperity but also to the well-being and prosperity of the entire community.
+          </p>
+        </div>
+        <div class="descrip-image">
+         <br><br><br><br> <img src="farmers.jpg" alt="Brian">
+        </div>
+      </section> 
+
+
+        <footer>
+            <div class="fot">
+              <div class="footer-col"> 
+               <h3>BUKURA CBO</h3>
+               <address>
+                 <li>P.O BOX 58-50105,</li>
+                 <li>Bukura,</li>
+                 <li>Kenya</li>
+                 <li><a href="mailto:bukuracbo@gmail.com">bukuracbo@gmail.com</a></li>
+               </address> 
+              </div> 
+             <div class="footer-col">
+               <h3>Quick Links</h3>
+               <li><a href="agriculture.html">Agriculture</a></li>
+               <li><a href="factory.html">Cooperative</a></li>
+               <li><a href="institution.html">School</a></li>
+               <li><a href="downloads.html">Downloads</a></li>
+             </div>
+             <div class="footer-col">
+               <h3>Contact Us</h3>
+               <li>+254722331098</li>
+               <li>+254712519209</li>
+               <li><a href="mailto:bukuracomplex@gmail.com">bukuracomplex@gmail.com</a></li>
+              </div>
+             <div class="footer-col">
+               <h3>Feedback</h3>
+               <p>In order to improve our services, kindly give us your Feedback;</p>
+               <div class="subscribe">
+                <input type="text" id="message" placeholder="Enter text">
+                <a id="sendBtn" class="yellow">Send Email</a>
+             </div>
+              </div>
+          </div> 
+              <hr>
+             <div class="copyright">
+              <p>&copy;2023 BUKURA CBO | All rights reserved | Infinity Dreams Softwares </p>
+              <div class="pro-links">
+                <a href="https://www.facebook.com/bukuracbo" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/bukura-educational-complex-cbo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+             </div>
+          </footer>
+          <script>
+            $('#menu-drop').click(function(){
+             $('nav .navigation ul').addClass('active')
+           });
+           $('#menu-close').click(function(){
+             $('nav .navigation ul').removeClass('active')
+           });
+         </script>
+          <script>
+            const sendBtn = document.getElementById('sendBtn');
+            const messageInput = document.getElementById('message');
+        
+            sendBtn.addEventListener('click', () => {
+              const message = messageInput.value;
+              if (message !== '') {
+                const emailLink = `mailto:bukuracbo@gmail.com?body=${encodeURIComponent(message)}`;
+                window.location.href = emailLink;
+              }
+            });
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          <script>
+              const swiper = new Swiper('.swiper', {
+                  autoplay: {
+                      delay: 3000,
+                      disableOnInteraction: false,
+                  },
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+          </script>
+          <div id="back-to-top">&#8593;</div>
+          <script>
+              window.addEventListener('scroll', function() {
+                var backToTopButton = document.getElementById('back-to-top');
+                if (window.pageYOffset > 100) {
+                  backToTopButton.style.display = 'block';
+                } else {
+                  backToTopButton.style.display = 'none';
+                }
+              });
+          
+              document.getElementById('back-to-top').addEventListener('click', function() {
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+                });
+              });
+            </script>
+    </body>
+</html>

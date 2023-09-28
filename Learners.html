@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Bukura Community Organization.
+        </title>
+        <link rel="stylesheet" href="Home.css">
+
+        <script src="https://kit.fontawesome.com/2f66de554a.js"></script>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<style>
+    #back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #FDC93B;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+    }
+    .whatsapp-icon {
+            position: fixed;
+            bottom: 40px;
+            left: 20px;
+            z-index: 9999;
+            background-color: #000000;
+        }
+  </style>
+  <script>
+    function countdown() {
+  const countdownDate = new Date("2023-07-01T23:59:59").getTime();
+
+  const updateCountdown = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = padZero(days);
+    document.getElementById("hours").textContent = padZero(hours);
+    document.getElementById("minutes").textContent = padZero(minutes);
+    document.getElementById("seconds").textContent = padZero(seconds);
+
+    if (distance < 0) {
+      clearInterval(updateCountdown);
+      document.getElementById("days").textContent = "00";
+      document.getElementById("hours").textContent = "00";
+      document.getElementById("minutes").textContent = "00";
+      document.getElementById("seconds").textContent = "00";
+    }
+  }, 1000);
+}
+
+function padZero(value) {
+  return value.toString().padStart(2, "0");
+}
+
+countdown();
+  </script>
+    </head>
+    <body>
+        <nav>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
+            <a href="index.html"><img src="logo-main-mobile.png" alt="logo"></a>
+            <h1>Bukura Educational Complex CBO</h1>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                              <ul>
+                                <li><a href="About.html">Mission</a></li>
+                                <li><a href="About.html">Vision</a></li>
+                                <li><a href="About.html">Motto</a></li>
+                            </ul>                                  
+                        </div> 
+                    </li>
+                    <li><a class="active" href="#">Quick Links</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="agriculture.html">Agriculture</a></li>
+                                <li><a href="factory.html">Cooperative</a></li>
+                                <li><a href="downloads.html">Downloads</a></li>
+                                <li><a href="institution.html">School</a></li>
+                            </ul>                 
+                        </div> 
+                    </li>
+                    <li><a href="Contacts.html">Contact</a></li>
+                </ul>
+                <i id="menu-drop" class="fa-solid fa-bars-staggered fa-lg"></i>
+
+            </div>
+        </nav>
+        <section id="about-home">
+            <h2>OUR LEARNERS</h2>
+        </section>
+
+        <section class="home-slidingimg">
+          <h3>Pictorials</h3>
+          <div class="slidingimg">
+          <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="welbecpic.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="cover1.jpg" alt="milk"></div>
+    <div class="swiper-slide"><img src="display.jpg" alt="Chicks"></div>
+    <div class="swiper-slide"><img src="Learners3.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="Parents7.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="Learners1.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="school2.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="parentspic.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="school5.jpg" alt="Eggs"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+<section class="Instit-descrip3">
+  <div class="descrip">
+    <h3>Learners</h3><br>
+    <p>
+      The learners are at the heart of our educational mission. We believe in the power of education to transform lives and shape futures. Our learners are curious, resilient, and eager to explore new horizons. They come from diverse backgrounds, each with their own unique strengths and talents. At Bukura Educational Complex, we strive to foster a love for learning, promote critical thinking, and instill values of integrity and compassion. We empower our learners to become confident individuals who are prepared to navigate the challenges of an ever-changing world. Through a holistic approach to education, we nurture their academic, social, and emotional growth, equipping them with the skills and knowledge to thrive in their future endeavors.
+    </p>
+  
+  </div>
+  <div class="descrip-image">
+    <br><br><br><img src="pupilspic.jpg" alt="Brian">
+  </div>
+</section>
+      <Section class="director">
+        <br>
+        <h3>The School President</h3><br>
+        <div class="image-contner"><img src="" alt=""></div>
+        <p>
+          Together, we form a vibrant and dynamic community where every voice matters. I believe that each one of us has the power to make a difference.
+I encourage my compeers to embrace the opportunities that the institution provides. Let us strive for excellence in our academic pursuits, explore our passions, and actively participate in the diverse range of activities and clubs available to us. As future leaders, let us foster a culture of inclusivity, respect, and empathy, celebrating our unique backgrounds and perspectives. Together, we can inspire one another and drive positive change within our school and beyond.
+I serve as a voice for all students. Together, let us work collaboratively to create an environment that fosters growth, respect, and a sense of belonging. Let us seize every opportunity to learn, grow, and make a positive impact within our school and the wider community.
+At Bukura Educational Complex, we are not just students; we are a united force, ready to make a difference in the world. Let us embrace this journey with enthusiasm, perseverance, and a shared commitment to excellence. Together, we can shape a future that is bright, inclusive, and filled with endless possibilities.
+        </p>
+        <h5 style="font: bold; font-size: 1.2rem; padding-bottom: 15px; color: rgb(21, 21, 100);padding-left: 15px;">Starlyne Oluteyo</h5>
+      </Section>
+      <Section class="director">
+        <br>
+        <h3>Deputy School President</h3><br>
+        <div class="image-contner"><img src="" alt=""></div>
+        <p>
+          It is my privilege to serve as a representative of your voices and aspirations. I encourage my compeers to engage actively in  academic pursuits, extracurricular activities, and community initiatives. As leaders of tomorrow, let us cultivate a culture of inclusivity, respect, and collaboration, where every individual feels heard and valued. Together, we can create positive change, celebrate our differences, and foster a sense of unity within our school community.
+I express my heartfelt appreciation to our teachers and parents for your trust and encouragement. Your unwavering support fuels our motivation and drive. Your belief in our abilities inspires us to reach for the stars and make the most of the opportunities afforded to us.
+I am here to support, represent, and advocate for all students. Together, let us embrace open dialogue, active participation, and a shared commitment to fostering a positive school culture. Let us work collaboratively to create an inclusive and supportive environment where each student can thrive and contribute meaningfully.
+        </p>
+        <h5 style="font: bold; font-size: 1.2rem; padding-bottom: 15px; color: rgb(21, 21, 100);padding-left: 15px;">Joy Praise</h5>
+      </Section>
+
+          <script>
+            const sendBtn = document.getElementById('sendBtn');
+            const messageInput = document.getElementById('message');
+        
+            sendBtn.addEventListener('click', () => {
+              const message = messageInput.value;
+              if (message !== '') {
+                const emailLink = `mailto:bukuracbo@gmail.com?body=${encodeURIComponent(message)}`;
+                window.location.href = emailLink;
+              }
+            });
+          </script>
+        <footer>
+          <div class="fot">
+            <div class="footer-col"> 
+             <h2 style="color: rgb(241, 240, 245); font-weight: 600; padding-bottom: 20px;">BUKURA CBO</h2>
+             <address>
+               <li>P.O BOX 58-50105,</li>
+               <li>Bukura,</li>
+               <li>Kenya</li>
+               <li><a href="mailto:bukuracbo@gmail.com">bukuracbo@gmail.com</a></li>
+             </address> 
+            </div> 
+           <div class="footer-col">
+             <h2 style="color: rgb(241, 240, 245); font-weight: 600; padding-bottom: 20px;">Quick Links</h2>
+             <li><a href="agriculture.html">Agriculture</a></li>
+             <li><a href="factory.html">Cooperative</a></li>
+             <li><a href="institution.html">School</a></li>
+             <li><a href="downloads.html">Downloads</a></li>
+           </div>
+           <div class="footer-col">
+             <h2 style="color: rgb(241, 240, 245); font-weight: 600; padding-bottom: 20px;">Contact Us</h2>
+             <li>+254722331098</li>
+             <li>+254712519209</li>
+             <li><a href="mailto:bukuracomplex@gmail.com">bukuracomplex@gmail.com</a></li>
+            </div>
+           <div class="footer-col">
+             <h2 style="color: rgb(241, 240, 245); font-weight: 600; padding-bottom: 20px;">Feedback</h2>
+             <p>In order to improve our services, kindly give us your Feedback;</p>
+
+             <div class="subscribe">
+              <input type="text" id="message" placeholder="Enter text">
+              <a id="sendBtn" class="yellow">Send Email</a>
+           </div>
+            </div>
+        </div> 
+            <hr>
+           <div class="copyright">
+            <p>&copy;2023 BUKURA CBO | All rights reserved | Infinity Dreams Softwares </p>
+            <div class="pro-links">
+              <a href="https://www.facebook.com/bukuracbo" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/bukura-educational-complex-cbo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+           </div>
+        </footer>
+        <script>
+          $('#menu-drop').click(function(){
+           $('nav .navigation ul').addClass('active')
+         });
+         $('#menu-close').click(function(){
+           $('nav .navigation ul').removeClass('active')
+         });
+       </script>
+          <a href="https://wa.me/+254722331098" target="_blank" class="whatsapp-icon">
+            <img src="whatsapp.jpg" alt="WhatsApp Icon" width="50" height="50">
+        </a>
+          <div id="back-to-top">&#8593;</div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          <script>
+              const swiper = new Swiper('.swiper', {
+                  autoplay: {
+                      delay: 3000,
+                      disableOnInteraction: false,
+                  },
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+          </script>
+
+          <script>
+              window.addEventListener('scroll', function() {
+                var backToTopButton = document.getElementById('back-to-top');
+                if (window.pageYOffset > 100) {
+                  backToTopButton.style.display = 'block';
+                } else {
+                  backToTopButton.style.display = 'none';
+                }
+              });
+          
+              document.getElementById('back-to-top').addEventListener('click', function() {
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+                });
+              });
+            </script>
+    </body>
+</html>

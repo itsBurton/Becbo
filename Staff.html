@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Bukura Community Organization.
+        </title>
+        <link rel="stylesheet" href="Home.css">
+
+        <script src="https://kit.fontawesome.com/2f66de554a.js"></script>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<style>
+    #back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #FDC93B;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+    }
+    .whatsapp-icon {
+            position: fixed;
+            bottom: 40px;
+            left: 20px;
+            z-index: 9999;
+        }
+  </style>
+  <script>
+    function countdown() {
+  const countdownDate = new Date("2023-07-01T23:59:59").getTime();
+
+  const updateCountdown = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = padZero(days);
+    document.getElementById("hours").textContent = padZero(hours);
+    document.getElementById("minutes").textContent = padZero(minutes);
+    document.getElementById("seconds").textContent = padZero(seconds);
+
+    if (distance < 0) {
+      clearInterval(updateCountdown);
+      document.getElementById("days").textContent = "00";
+      document.getElementById("hours").textContent = "00";
+      document.getElementById("minutes").textContent = "00";
+      document.getElementById("seconds").textContent = "00";
+    }
+  }, 1000);
+}
+
+function padZero(value) {
+  return value.toString().padStart(2, "0");
+}
+
+countdown();
+  </script>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html"><img src="logo-main-mobile.png" alt="logo"></a>
+            <h1>Bukura Educational Complex CBO</h1>
+            <div class="navigation">
+                <ul>
+                  <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                              <ul>
+                                <li><a href="About.html">Mission</a></li>
+                                <li><a href="About.html">Vision</a></li>
+                                <li><a href="About.html">Motto</a></li>
+                            </ul>                                  
+                        </div> 
+                    </li>
+                    <li><a class="active" href="#">Quick Links</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="agriculture.html">Agriculture</a></li>
+                                <li><a href="factory.html">Cooperative</a></li>
+                                <li><a href="downloads.html">Downloads</a></li>
+                                <li><a href="institution.html">School</a></li>
+                            </ul>                 
+                        </div> 
+                    </li>
+                    <li><a href="Contacts.html">Contact</a></li>
+                </ul>
+                <i id="menu-drop" class="fa-solid fa-bars-staggered fa-lg"></i>
+
+            </div>
+        </nav>
+        <section id="about-home">
+            <h2>OUR STAFF</h2>
+        </section>
+
+        <section class="home-slidingimg">
+          <h3>Pictorials</h3>
+          <div class="slidingimg">
+          <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="school1.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="school4.jpg" alt="milk"></div>
+    <div class="swiper-slide"><img src="DepHead.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="staff.jpg" alt="Chicks"></div>
+    <div class="swiper-slide"><img src="staff3.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="Dep1.jpg" alt="Eggs"></div>
+    <div class="swiper-slide"><img src="award.jpg" alt="Eggs"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+      </section>
+      <section class="Instit-descrip3">
+        <div class="descrip">
+          <h3>Staff</h3><br>
+          <p>
+            The staff is a dedicated and passionate team of educators committed to shaping the future of their learners. With their extensive knowledge, experience, and innovative teaching methods, they create a dynamic and engaging learning environment that nurtures intellectual curiosity and fosters a love for learning. The staff members go above and beyond to ensure that each learner receives personalized attention, guidance, and support, empowering them to reach their full potential and become lifelong learners. Through their tireless efforts, the staff play a pivotal role in transforming young minds, equipping them with the knowledge, skills, and values to thrive in an ever-changing world.
+          </p>
+        
+        </div>
+        <div class="descrip-image">
+          <br><br><img src="staff.jpg" alt="Brian">
+        </div>
+      </section> 
+
+      <Section class="director">
+        <br>
+        <h3>The Director</h3><br>
+        <div class="image-contner"><img src="" alt=""></div>
+        <p>
+          It is with great pride and enthusiasm that I welcome you to our vibrant learning community. At Bukura Educational Complex, we believe in the transformative power of education and strive to provide an exceptional learning experience for our students.
+<br>Our dedicated team of educators is committed to fostering a nurturing and inclusive environment where every learner can thrive. We embrace innovative teaching methods, promote critical thinking, and encourage creativity, ensuring that our students develop the skills necessary to navigate an ever-evolving world.
+<br>I extend my heartfelt gratitude for entrusting us with your child's education. We recognize the importance of the partnership between home and school, and we value your involvement and support. Together, let us foster a strong foundation for your child's growth and success, as we work hand in hand to nurture their talents and aspirations.
+<br>As we embark on this educational journey together, let us embrace a spirit of collaboration, mutual respect, and lifelong learning. Together, we will create a vibrant community that prepares our students for a future full of possibilities. <br>
+        </p>
+        <h5 style="font: bold; font-size: 1.2rem; padding-bottom: 15px; color: rgb(21, 21, 100);padding-left: 15px;">Mr. Andati Walter</h5>
+      </Section>
+      <Section class="director">
+        <br>
+        <h3>Head teacher</h3><br>
+        <div class="image-contner"><img src="" alt=""></div>
+        <p>
+          I am privileged to lead this extraordinary learning community that is dedicated to empowering excellence and building bright futures. Our commitment to providing a nurturing and inspiring educational environment sets the stage for our students to unlock their full potential.
+<br>We believe in our learners’ unique abilities and talents. Our goal is to provide them with the knowledge, skills, and character traits necessary to thrive in an ever-changing world. Success is not solely measured by grades, but by the values they embrace, the relationships they cultivate, and the positive impact they make on the world around them.
+<br>Let us remember that we are a community working together to shape the future. Let us foster a culture of respect, kindness, and resilience. Let us celebrate our diversity, encourage critical thinking, and promote a love for lifelong learning. Together, we can empower our learners to become compassionate, innovative, and responsible global citizens. <br>
+        </p>
+        <h5 style="font: bold; font-size: 1.2rem; padding-bottom: 15px; color: rgb(21, 21, 100);padding-left: 15px;">Madam Janepher Andati</h5>
+      </Section>
+      <Section class="director">
+        <br>
+        <h3>Deputy Head teacher</h3>
+        <div class="image-contner"><img src="" alt=""></div>
+        <p>
+          I am delighted to welcome you to our esteemed institution. We are committed to providing a nurturing and inclusive learning environment that promotes academic growth, character development, and personal success.
+          <br>This is a place where learners can explore your passions, develop critical thinking skills, and unlock their full potential. Each day is a chance to grow, learn, and make a positive impact. Together, let us strive for excellence, celebrate diversity, and foster a culture of lifelong learning. Let us create an environment where every learner feels valued, empowered, and inspired to reach their full potential.
+          <br>I am excited about the possibilities that lie ahead. Bukura Educational Complex is a place where dreams can take flight, where potential is ignited, and where success is nurtured. Together, let us build a foundation for lifelong learning, personal growth, and future success.
+          <br>
+        </p>
+        <h5 style="font: bold; font-size: 1.2rem; padding-bottom: 15px; color: rgb(21, 21, 100);padding-left: 15px;">Mr. Okwako Richard</h5>
+      </Section>
+
+        <footer>
+            <div class="fot">
+              <div class="footer-col"> 
+               <h3>BUKURA CBO</h3>
+               <address>
+                 <li>P.O BOX 58-50105,</li>
+                 <li>Bukura,</li>
+                 <li>Kenya</li>
+                 <li><a href="mailto:bukuracbo@gmail.com">bukuracbo@gmail.com</a></li>
+               </address> 
+              </div> 
+             <div class="footer-col">
+               <h3>Quick Links</h3>
+               <li><a href="agriculture.html">Agriculture</a></li>
+               <li><a href="factory.html">Cooperative</a></li>
+               <li><a href="institution.html">School</a></li>
+               <li><a href="downloads.html">Downloads</a></li>
+             </div>
+             <div class="footer-col">
+               <h3>Contact Us</h3>
+               <li>+254722331098</li>
+               <li>+254712519209</li>
+               <li><a href="mailto:bukuracomplex@gmail.com">bukuracomplex@gmail.com</a></li>
+              </div>
+             <div class="footer-col">
+               <h3>Feedback</h3>
+               <p>In order to improve our services, kindly give us your Feedback;</p>
+
+               <div class="subscribe">
+                <input type="text" id="message" placeholder="Enter text">
+                <a id="sendBtn" class="yellow">Send Email</a>
+             </div> 
+              </div>
+          </div> 
+              <hr>
+             <div class="copyright">
+              <p>&copy;2023 BUKURA CBO | All rights reserved | Infinity Dreams Softwares </p>
+              <div class="pro-links">
+                <a href="https://www.facebook.com/bukuracbo" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/bukura-educational-complex-cbo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+             </div>
+          </footer>
+          <script>
+            $('#menu-drop').click(function(){
+             $('nav .navigation ul').addClass('active')
+           });
+           $('#menu-close').click(function(){
+             $('nav .navigation ul').removeClass('active')
+           });
+         </script>
+          <script>
+            const sendBtn = document.getElementById('sendBtn');
+            const messageInput = document.getElementById('message');
+        
+            sendBtn.addEventListener('click', () => {
+              const message = messageInput.value;
+              if (message !== '') {
+                const emailLink = `mailto:bukuracbo@gmail.com?body=${encodeURIComponent(message)}`;
+                window.location.href = emailLink;
+              }
+            });
+          </script>
+
+          <a href="https://wa.me/+254722331098" target="_blank" class="whatsapp-icon">
+            <img src="whatsapp.jpg" alt="WhatsApp Icon" width="50" height="50">
+        </a>
+          <div id="back-to-top">&#8593;</div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          <script>
+              const swiper = new Swiper('.swiper', {
+                  autoplay: {
+                      delay: 3000,
+                      disableOnInteraction: false,
+                  },
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+          </script>
+
+          <script>
+              window.addEventListener('scroll', function() {
+                var backToTopButton = document.getElementById('back-to-top');
+                if (window.pageYOffset > 100) {
+                  backToTopButton.style.display = 'block';
+                } else {
+                  backToTopButton.style.display = 'none';
+                }
+              });
+          
+              document.getElementById('back-to-top').addEventListener('click', function() {
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+                });
+              });
+            </script>
+    </body>
+</html>
