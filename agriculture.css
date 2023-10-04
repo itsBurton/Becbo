@@ -369,6 +369,9 @@ footer .copyright p{
     nav {
         padding: 8px 8px;
     }
+    h2{
+        font-size: 1.9rem;
+    }
 
     nav a img {
         width: 120px;
@@ -376,16 +379,67 @@ footer .copyright p{
         margin-right: 1.5vh;
     }
     h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
       .agri-pic .pol img {
-        height: 30vh;
-        width: 50vh;
+        height: 28vh;
+        width: 37vh;
       }
       .agri-pic .pot p {
         font-size: 1.15rem;
       }
       .agri-pic .pot {
-        width: 50vh;
+        width: 37vh;
     }
+}
+@media(max-width:376px){
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow{
+        margin-top: .5vh;
+        width: 12vh;
+        border-radius: 2px;
+        text-align: center;
+    }
+    #message{
+        width: 30vh;
+    }
+    .agri-pic .pol img {
+        height: 24vh;
+        width: 33vh;
+    }
+    .agri-pic .pot {
+        width: 33vh;
+    }
+   
+}
+
+@media(max-width:321px){
+    .yellow{
+        width: 12vh;
+    }
+    #message{
+        width: 26vh;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    #Agri-home {
+        height: 27vh;
+    }
+    .agri-pic .pol img {
+        height: 20vh;
+        width: 28vh;
+    }
+    .agri-pic .pot {
+        width: 28vh;
+    }
+    nav .navigation ul {
+        width: 200px;
+}
+nav ul li:hover .sub-menu-1 ul {
+    width: 100px;
+}
 }
