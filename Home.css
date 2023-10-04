@@ -1659,7 +1659,7 @@ text-align: center;
     }
 }
 
-@media(max-width:475px){
+@media(max-width:476px){
 
     nav {
         padding: 8px 8px;
@@ -1724,7 +1724,8 @@ text-align: center;
     .Cop-descrip1 {
         margin-top: 10px;
         margin-bottom: 20px;
-        margin-left: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .Cop-descrip1 .descrip button {
         margin-left: 30%;
@@ -1740,11 +1741,11 @@ text-align: center;
     }
     .Cop-descrip1 .descrip-image{
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 2vh;
     }
     .Cop-descrip1 .descrip-image img {
-        width: 45vh;
-        height: 30vh;
+        width: 34vh;
+        height: 28vh;
     }
     .flex-disp{
         padding: 3vh;
@@ -1812,7 +1813,7 @@ text-align: center;
             font-size: 1.4rem;
         }
         .wel-display img {
-            height: 35vh;
+            height: 32vh;
         }
         .image-contner img {
             width: 23vh;
@@ -1820,19 +1821,20 @@ text-align: center;
             margin-left: 25%;
         }
         .Instit-descrip3 .descrip-image img {
-            width: 44vh;
-            height: 33vh;
+            width: 34vh;
+            height: 28vh;
         }
         .map {
             padding-bottom: 5vh;
             margin-bottom: 10vw;
+            height: 50vh;
         }  
         #bec-fre .dairy img {
-            width: 50vh;
+            width: 36vh;
         }
         .Instit-descrip .descrip-image img {
-            width: 45vh;
-            height: 30vh;
+            width: 34vh;
+            height: 28vh;
         }
         .Instit-descrip .descrip button {
             margin-left: 30%;
@@ -1853,7 +1855,7 @@ text-align: center;
             margin-bottom: 1.5vh;
         }
         #instit-home {
-            height: 85vh;
+            height: 65vh;
         }
         .customdiv h2{
             font-size: 1.6rem;
@@ -1871,7 +1873,7 @@ text-align: center;
         .Instit-descrip3 {
             width: 93%;
         }
- .Instit-descrip .descrip-image {
+        .Instit-descrip .descrip-image {
             margin-left: 0;
             height: 50%;
         }
@@ -1997,4 +1999,6 @@ text-align: center;
 }
 nav ul li:hover .sub-menu-1 ul {
     width: 100px;
+}
+
 }
