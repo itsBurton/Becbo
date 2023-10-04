@@ -1871,4 +1871,130 @@ text-align: center;
         .Instit-descrip3 {
             width: 93%;
         }
+ .Instit-descrip .descrip-image {
+            margin-left: 0;
+            height: 50%;
+        }
+        .Instit-descrip3 {
+            margin-left: 0;
+        }
+        .Instit-descrip {
+            margin-left: 0;
+        }
+}
+@media(max-width:376px){
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow{
+        margin-top: .5vh;
+        width: 12vh;
+        border-radius: 2px;
+        text-align: center;
+    }
+    #message{
+        width: 30vh;
+    }
+    #home {
+        height: 80vh;
+    }
+    #about-home {
+        height: 38vh;
+    }
+    .connect .form {
+        margin-top: .5vh;
+    }
+    .Cop-descrip1 {
+        margin-left: 0;
+    }
+    .Cop-descrip1 .descrip-image img {
+        width: 30vh;
+        height: 23vh;
+    }
+    #instit-home {
+        height: 70vh;
+    }
+    .Instit-descrip .descrip-image img {
+        width: 31vh;
+        height: 25vh;
+    }
+    .Instit-descrip .descrip-image {
+        margin-top: .5vh;
+    }
+    .Instit-descrip3 .descrip-image img {
+        width: 31vh;
+        height: 25vh;
+    }
+    .wel-display img {
+        height: 30vh;
+    }
+}
+@media(max-width:321px){
+    .yellow{
+        width: 12vh;
+    }
+    #message{
+        width: 26vh;
+    }
+    #Products .dairy img {
+        width: 90%;
+        height: 50%;
+        background-size: cover;
+        background-position: center;
+        margin: 2px;
+    }
+    .on1 {
+        font-size: 1rem;
+    }
+    .Instit-descrip2 .descrip-image img {
+        height: 21vh;
+    }
+    .connect .getin .getindet div p {
+        width: 37vh;
+    }
+    .Cop-descrip1 .descrip-image img {
+        width: 24vh;
+        height: 18vh;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    .Instit-descrip .descrip-image img {
+        width: 24vh;
+        height: 18vh;
+    }
+    #bec-fre .dairy img {
+        width: 27vh;
+        height: 20vh;
+    }
+    .Instit-descrip3 .descrip-image img {
+        width: 24vh;
+        height: 18vh;
+        margin-right: 3px;
+    }
+    #about-home {
+        height: 35vh;
+    }
+    nav {
+        padding: 6px 6px;
+    }
+    .wel-display img {
+        height: 26vh;
+    }
+    .countdown h4 {
+        font-size: 1.1rem;
+    }
+    .countdown-value {
+        font-size: 28px;
+    }
+    .countdown-box {
+        display: flex;
+        justify-content: right;
+    }
+    nav .navigation ul {
+        width: 200px;
+}
+nav ul li:hover .sub-menu-1 ul {
+    width: 100px;
 }
