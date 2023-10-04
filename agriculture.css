@@ -365,7 +365,7 @@ footer .copyright p{
         font-size: 1.2rem;
     }
 }
-@media(max-width:475px){    
+@media(max-width:426px){    
     nav {
         padding: 8px 8px;
     }
